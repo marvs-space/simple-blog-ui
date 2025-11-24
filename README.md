@@ -13,15 +13,6 @@ A premium, production-ready blog frontend built with **React**, **Tailwind CSS**
 - **Smooth Animations:** Page transitions powered by Framer Motion.
 - **Responsive Design:** Fully optimized for mobile and desktop.
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-- **Framework:** React + Vite
-- **Styling:** Tailwind CSS
-- **Icons:** React Icons (Fa, Fi, Go, Io)
-- **Animation:** Framer Motion
-
-## 📦 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/marvs-space/simple-blog-ui.git](https://github.com/marvs-space/simple-blog-ui.git)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
