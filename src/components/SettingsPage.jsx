@@ -31,11 +31,11 @@ const SettingsPage = () => {
   };
 
   // Reusable Toggle Component
-  const Toggle = ({ enabled, onChange, label, icon: Icon }) => (
+  const Toggle = ({ enabled, onChange, label, icon: IconComponent }) => (
     <div className="flex items-center justify-between py-4">
       <div className="flex items-center gap-3">
         <div className="p-2 bg-gray-50 rounded-lg">
-          <Icon className="text-gray-600 text-lg" />
+          <IconComponent className="text-gray-600 text-lg" />
         </div>
         <span className="font-medium text-gray-800">{label}</span>
       </div>
